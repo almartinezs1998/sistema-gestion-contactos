@@ -1,0 +1,61 @@
+EEEE
+======================================================================
+ERROR: test_agregar_contacto (test_contactos.TestGestorContactos.test_agregar_contacto)
+Prueba que el contacto se agregue a la lista.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\test_contactos.py", line 10, in setUp
+    self.gestor.agregar_contacto("Juan Perez", "123456789", "juan@test.com", "Calle 1")
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\main.py", line 28, in agregar_contacto
+    print(f"\u2705 Contacto '{nombre}' agregado correctamente.")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+======================================================================
+ERROR: test_buscar_contacto_existente (test_contactos.TestGestorContactos.test_buscar_contacto_existente)
+Prueba la búsqueda por nombre.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\test_contactos.py", line 10, in setUp
+    self.gestor.agregar_contacto("Juan Perez", "123456789", "juan@test.com", "Calle 1")
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\main.py", line 28, in agregar_contacto
+    print(f"\u2705 Contacto '{nombre}' agregado correctamente.")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+======================================================================
+ERROR: test_buscar_contacto_inexistente (test_contactos.TestGestorContactos.test_buscar_contacto_inexistente)
+Prueba buscar alguien que no existe.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\test_contactos.py", line 10, in setUp
+    self.gestor.agregar_contacto("Juan Perez", "123456789", "juan@test.com", "Calle 1")
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\main.py", line 28, in agregar_contacto
+    print(f"\u2705 Contacto '{nombre}' agregado correctamente.")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+======================================================================
+ERROR: test_eliminar_contacto (test_contactos.TestGestorContactos.test_eliminar_contacto)
+Prueba eliminar un contacto.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\test_contactos.py", line 10, in setUp
+    self.gestor.agregar_contacto("Juan Perez", "123456789", "juan@test.com", "Calle 1")
+  File "C:\Users\Alberto\Desktop\Proyecto modulo 2\main.py", line 28, in agregar_contacto
+    print(f"\u2705 Contacto '{nombre}' agregado correctamente.")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+FAILED (errors=4)
